@@ -1,8 +1,8 @@
-
+//2 12.02.2023
 // import java.lang.FdLibm.Pow;
 import java.util.Scanner;
 
-public class App2 {
+public class App3 {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
@@ -82,9 +82,9 @@ public class App2 {
         
 
 
-        int num = scanner.nextInt();
-        System.out.println((num/10)+", " +(num%10));
-        System.out.println(num%10 + "," + (num/10)%10);
+        // int num = scanner.nextInt();
+        // System.out.println((num/10)+", " +(num%10));
+        // System.out.println(num%10 + "," + (num/10)%10);
 
         /*
          * 
@@ -103,6 +103,55 @@ public class App2 {
          * Input: 914
          * Output: 4, 1
          */
+
+        //  int a= scanner.nextInt();
+        //  int b= scanner.nextInt();
+        //  int c= scanner.nextInt();
+         
+        //  System.out.println((int)(Math.pow(a, 3))+ (2*(int)(Math.pow(b, 2))) - (3*a*b) + (int)(Math.pow(c, 3)));
+
+        // String university = scanner.nextLine();
+        // String faculty = scanner.nextLine();
+        // String subject = scanner.nextLine();
+
+        // System.out.println("University: " + university);
+        // System.out.println("Faculty: "+ faculty);
+        // System.out.println("Subject: "+ subject);
+
+        //3
+        // System.out.print("Inserrt a: ");
+        // int a = scanner.nextInt();
+        // System.out.print("Inserrt b: ");
+        // int b = scanner.nextInt();
+        // System.out.print("Inserrt c: ");
+        // int c = scanner.nextInt();
+
+        // boolean trorf = (a+b)>=c;
+
+        // System.out.println(trorf);
+
+        //4
+        // final double PI = 3.14;
+        // System.out.print("Insert diametr: ");
+        // double d = scanner.nextDouble();
+        // System.out.println(PI*d);
+
+        //5
+        // int a= scanner.nextInt();
+        // int b= scanner.nextInt();
+
+        // double result = Math.sqrt(a*b);
+        // double result1 = Math.pow((a*b), 1/2);
+        // System.out.println(result);
+        // System.out.println(result1);
+
+        //6
+        int x1 = scanner.nextInt();
+        int x2 = scanner.nextInt();
+        System.out.println(Math.abs(x2-x1));
+
+
+
     }
 
 }
